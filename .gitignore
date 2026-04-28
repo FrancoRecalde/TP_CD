@@ -1,0 +1,30 @@
+# Dataset raw (archivos originales ~500MB — NO subir al repo)
+data/raw/
+PAMAP2_Dataset/
+*.dat
+
+# Datos procesados grandes
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.jupyter/
