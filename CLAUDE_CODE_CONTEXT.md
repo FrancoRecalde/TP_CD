@@ -7,7 +7,7 @@
 
 Soy estudiante de Ingeniería en Sistemas de Información en UTN FRC (Córdoba, Argentina), cursando
 Ciencia de Datos en 5K4, año 2026. Estoy haciendo el **Trabajo Práctico Integrador (TPI)** en grupo,
-pero en la práctica voy a llevar el desarrollo técnico yo solo. El grupo tiene 8 integrantes (Grupo 15).
+pero en la práctica. El grupo tiene 8 integrantes (Grupo 15).
 
 **Mi nombre:** Franco Recalde (legajo 94661). Soy el Product Owner del equipo Scrum.
 
