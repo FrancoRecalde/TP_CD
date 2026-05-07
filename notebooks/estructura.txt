@@ -1,0 +1,31 @@
+1. Calidad y limpieza
+1.1 Nulos / valores faltantes: Ya se analiza y trata frecuencia_cardiaca (NaNs). Agregar visualización de % de nulos por columna al inicio (antes de limpiar).
+1.2 Duplicados: Agregar chequeo y visualización de duplicados por clave natural (sujeto_id, tiempo). Eliminar si existen.
+1.3 Outliers: Agregar detección simple de outliers (z-score o IQR) en variables clave (ej: frecuencia_cardiaca). Solo visualización, no eliminación automática.
+1.4 Espacios y encoding: No aplica (no hay columnas string relevantes).
+1.5 Caracteres especiales: No aplica.
+1.6 Casing y homogeneidad: No aplica.
+2. Tipos de datos
+2.1 Casteo de tipos: Verificar y castear tipos correctos (ya está en gran parte, pero agregar chequeo explícito y visualización de tipos).
+2.2 Fechas y timestamps: No aplica (no hay columnas fecha).
+2.3 Booleanos y flags: No aplica.
+3. Normalización y estandarización
+3.1 Valores de dominio: Visualizar valores únicos de actividad_id y sujeto_id. No requiere normalización.
+3.2 Unidades de medida: Documentar unidades en markdown.
+3.3 Escalado numérico: No se requiere para ETL, solo documentar.
+4. Enriquecimiento / derivación
+4.1 Columnas derivadas: No se agregan columnas derivadas en esta entrega.
+4.2 Lookup / join externo: No aplica.
+4.3 Metadatos de carga: Opcional, se puede agregar columna timestamp_carga si se desea.
+5. Estructura del schema
+5.1 Rename / alias de columnas: Ya realizado.
+5.2 Selección y drop de columnas: Ya realizado (orientación IMU).
+5.3 Pivot / unpivot: No aplica.
+6. Validaciones y reglas de negocio
+6.1 Rangos y formatos válidos: Visualizar y validar rangos de variables clave (frecuencia_cardiaca, acelerómetros, etc.).
+6.2 Integridad referencial: Visualizar que todos los actividad_id y sujeto_id sean válidos.
+6.3 Registros rechazados: No se genera tabla quarantine, pero se puede mostrar cuántos registros serían rechazados por validaciones.
+7. Estrategia de carga
+7.1 Full vs incremental: Documentar en markdown.
+7.2 Modo de escritura: Documentar en markdown.
+7.3 Particionado y clustering: Documentar en markdown.
